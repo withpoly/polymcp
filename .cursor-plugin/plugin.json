@@ -1,0 +1,21 @@
+{
+  "name": "poly",
+  "displayName": "Poly",
+  "version": "0.1.0",
+  "description": "Plugin that includes the Poly MCP server and the poly-cli skill for working with your Poly file system",
+  "author": {
+    "name": "Poly"
+  },
+  "logo": "./assets/poly-icon.svg",
+  "homepage": "https://github.com/withpoly/polymcp",
+  "repository": "https://github.com/withpoly/polymcp",
+  "keywords": [
+    "poly",
+    "files",
+    "storage",
+    "search",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

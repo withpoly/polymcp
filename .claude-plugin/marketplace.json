@@ -1,0 +1,19 @@
+{
+  "name": "poly",
+  "owner": {
+    "name": "Poly",
+    "url": "https://poly.app"
+  },
+  "metadata": {
+    "description": "Official Poly plugin marketplace",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "poly",
+      "source": "./",
+      "description": "Poly MCP server and the poly-cli skill for searching, reading, creating, and updating files in your Poly file system",
+      "category": "Productivity"
+    }
+  ]
+}

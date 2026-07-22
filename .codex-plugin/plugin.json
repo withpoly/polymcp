@@ -1,0 +1,41 @@
+{
+  "name": "poly",
+  "version": "0.1.0",
+  "description": "Poly workflows for searching, reading, creating, and updating files in your Poly cloud file system.",
+  "author": {
+    "name": "Poly",
+    "url": "https://poly.app"
+  },
+  "homepage": "https://poly.app",
+  "repository": "https://github.com/withpoly/polymcp",
+  "keywords": [
+    "poly",
+    "files",
+    "storage",
+    "search",
+    "drives"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Poly",
+    "shortDescription": "Search and manage your Poly file system from your agent",
+    "longDescription": "Poly is a cloud file system with intelligent, embedding-powered search. This plugin connects your agent to Poly so it can search, read, create, update, and organize files across your personal drive and shared drives — via the Poly desktop CLI when available, or the remote Poly MCP server otherwise.",
+    "developerName": "Poly",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://poly.app",
+    "defaultPrompt": [
+      "Search my Poly files for images of my trip to Italy",
+      "Create a folder in my Poly drive and move these files into it",
+      "Summarize the contents of a folder in one of my shared drives"
+    ],
+    "composerIcon": "./assets/poly-icon.png",
+    "logo": "./assets/poly-icon.png",
+    "screenshots": []
+  }
+}

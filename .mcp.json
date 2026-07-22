@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "poly": {
+      "type": "http",
+      "url": "https://mcp.poly.app/mcp",
+      "_meta": {
+        "ideToolIconPath": "./assets/poly-logo.svg",
+        "ideToolIconRendersAsTemplate": true
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Poly",
+  "version": "0.1.0",
+  "description": "Connect Poly to your workflow: search, read, create, and update files in your Poly cloud file system, across personal and shared drives",
+  "mcpServers": {
+    "poly": {
+      "httpUrl": "https://mcp.poly.app/mcp",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

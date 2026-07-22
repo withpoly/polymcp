@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "app.poly.mcp/mcp",
+  "title": "Poly MCP Server",
+  "description": "Connect to the Poly cloud file system: search, read, create, and update your files and drives.",
+  "repository": {
+    "url": "https://github.com/withpoly/polymcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.poly.app/mcp"
+    }
+  ]
+}
